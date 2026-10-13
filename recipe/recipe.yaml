@@ -1,5 +1,5 @@
 context:
-  version: 2.0.0
+  version: "2.1.0"
 
 package:
   name: anycrc
@@ -7,10 +7,10 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/a/anycrc/anycrc-${{ version }}.tar.gz
-    sha256: 326d7689af4ba89fd9041899bdb3dd25ef43a766780fa8b6228500f69b655b06
+    sha256: a907e9cf6767f6116621a85822e9c6b598cd24b01ca99302698d1d55b566427f
 
 build:
-  number: 3
+  number: 0
   script: ${{ PYTHON }} -m pip install .
 
 requirements:
